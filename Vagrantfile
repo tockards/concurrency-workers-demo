@@ -69,5 +69,7 @@ Vagrant.configure("2") do |config|
      curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
      python get-pip.py
      pip install tornado
+     cp /vagrant/nginx_files/default /etc/nginx/sites-available/.
+     cp /vagrant/nginx_files/nginx.conf /etc/nginx/nginx.conf
    SHELL
 end
