@@ -14,8 +14,8 @@ def async_fetch_gen(url):
 
 
 if __name__ == '__main__':
-    mk_req = functools.partial(async_fetch_gen, 'http://localhost:8888')
+    mk_req = functools.partial(async_fetch_gen, 'http://localhost:8080/backend')
     io_loop = ioloop.IOLoop.current()
-    for i in range(11):
+    for i in range(100):
         io_loop.add_callback(mk_req)
     io_loop.start()
