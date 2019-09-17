@@ -1,0 +1,32 @@
+backports-abc==0.5
+cachetools==2.0.1
+certifi==2019.6.16
+chardet==3.0.4
+configparser==3.8.1
+elasticsearch==7.0.4
+enum34==1.1.6
+ephem==3.7.7.0
+funcsigs==1.0.2
+future==0.17.1
+futures==3.3.0
+Genshi==0.7.3
+hvac==0.9.5
+idna==2.8
+-e git+ssh://git@github.com/ska-sa/katconf.git@aa2d3cf079c6f976e9faec571dcc67367f68ab62#egg=katconf
+katcp==0.6.5.dev1475+user.mmphego.mt.737.migrate.katcp.to.python.3.afb9041.dirty
+-e git+ssh://git@github.com/ska-sa/katlogger.git@98c8a62180a3c777a94d573868a9e581952bd571#egg=katlogger
+katpoint==0.8
+mock==3.0.5
+nose==1.3.7
+numpy==1.16.5
+ply==3.11
+psutil==5.6.3
+pyephem==3.7.7.0
+python-dateutil==2.8.0
+pytz==2019.2
+redispy==3.0.0
+requests==2.22.0
+singledispatch==3.4.0.3
+six==1.12.0
+tornado==4.5.3
+urllib3==1.25.3
