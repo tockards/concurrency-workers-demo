@@ -72,5 +72,6 @@ Vagrant.configure("2") do |config|
      pip install tornado
      cp /vagrant/nginx_files/default /etc/nginx/sites-available/.
      cp /vagrant/nginx_files/nginx.conf /etc/nginx/nginx.conf
+     cp /vagrant/dump.rdb /var/lib/redis/
    SHELL
 end
